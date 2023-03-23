@@ -1,3 +1,9 @@
+# Prevent file > 100MB
 /*/.terraform/*
-/*/provider.tf
+
+# Prevent shearing credentials (key and secret value)
+*/provider.tf
 .history/*
+
+# Prevent shearing SSH secret key
+*/*.pem
