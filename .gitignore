@@ -5,5 +5,9 @@
 */provider.tf
 .history/*
 
+# Prevent shearing credentials (key and secret key) through State files
+/*/*.tfstate
+/*/*.tfstate.*
+
 # Prevent shearing SSH secret key
 */*.pem
