@@ -1,0 +1,3 @@
+Terraform AWS is a personal project in which I have been working towards developing a full IaC for AWS. 
+It includes all the configurations, provisioners, modules, workspaces and many other components of Terraform which I have been adding throughout my learning path.
+Any use of configurations/resources used are public and therefore, can be used by any other individual/company worlwide.

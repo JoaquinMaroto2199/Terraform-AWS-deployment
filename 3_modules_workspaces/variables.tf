@@ -4,6 +4,15 @@ variable "number_ec2_instances" {
 }
 
 variable "ec2_instance_type" {
+    type = map
+    default = {
+        default = "t2.nano"
+        dev = "t2.micro"
+        prod = "t2.large"
+    }
+}
+
+variable "environment" {
     type = string
-    default = "t2.micro"
+    default = "dev"
 }
